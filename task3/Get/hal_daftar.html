@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pendaftaran</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Form Pendaftaran</h1><br>
+        <div>
+            <form method="get" id="form_input" action="hal_info.php" enctype="multipart/form-data">
+                <table id="table_input">
+                    <tr><td>Nama Lengkap</td><td><input type="text" name="nama"/></td></tr>
+                    <tr><td>E-mail</td><td><input type="email" name="email"/></td></tr>
+                    <tr><td>Nomor telepon</td><td><input type="tel" name="telepon"/></td></tr>
+                    <tr><td>Jenis Kelamin</td><td><input type="radio" name="jk" value="Laki-Laki"/> Laki-laki <input type="radio" name="jk" value="Perempuan"/> Perempuan</td></tr>
+                    <tr><td>Alamat</td><td><input type="text" name="alamat"/></td></tr>
+                </table><br>
+                <input type="submit" id="simpan" value="simpan"/>
+            </form>
+        </div>
+</body>
+</html>
