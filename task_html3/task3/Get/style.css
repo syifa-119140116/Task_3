@@ -1,0 +1,66 @@
+body{
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    color: floralwhite;
+    background-color: cadetblue;
+    font-family:century gothic;
+}
+img{
+    width: 25%;
+    margin-left:37%;
+    border-style: dashed;
+    border-color: cadetblue;
+}
+#table_input td{
+    padding: 1% 1% 1% 1%;
+    width: 1%;
+}
+#table_info tr{
+    background-color: rgb(186, 221, 221);
+}
+#table_info td{
+    padding: 2% 2% 2% 2%;
+    width: 5%;
+}
+#table_input{
+    margin: 1% 1% 1% 1%;
+    background-color:rgb(186, 221, 221);
+}
+#table_info{
+    background-color:azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:2% 20% 10% 20%;
+}
+input{
+    border: none;
+    border-bottom: 2px solid cadetblue;
+    background-color:rgb(186, 221, 221);
+}
+#simpan{
+    width :100%;
+    margin-top: 3%;
+    padding: 1% 1% 1% 1%;
+    background-color:cadetblue;
+    color: floralwhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+#btn_kembali{
+    width :18%;
+    margin-left: 2%;
+    padding: 2% 2% 2% 2%;
+    background-color:cadetblue;
+    color: floralwhite;
+}
+#pendaftar{
+    font-size:large;
+    text-align:center;
+}
+footer{
+    text-align:center;
+    padding: 2%;
+    background-color: cadetblue;
+}
